@@ -10,9 +10,19 @@ He exits the door, locking it and making his way to his car.""")
     print()
     firstPath = input("Do you want to read the note? (Y/N)\n")
     if firstPath == 'y' or firstPath == 'Y':
-        print("path1")
+        path1()
     elif firstPath == 'n' or firstPath == 'N':
-        print("path2")
+        path2()
+
+def path1():
+    print("""You peel the note open.
+"Why is there blood on it?", you ask yourself.
+The writing is barely legible, but you persevere.
+Your face goes pale, your hairs stick up on your arms.
+The note reads…
+“I'm so sorry, I had no other choice. 
+She is hungry.”
+""")
 
 ## title screen
 print("             ################")
@@ -28,7 +38,7 @@ print("""You sprint off the bus.
 Just your luck that it was running late on the night of your first shift.
 The time is 21:56, not as early as you would have liked to have arrived.
 You approach the staff entrance to the side of the building.
-Your new boss is standing there, looking quite annoyed.\n""")
+Your new boss is standing there, looking quite worried.\n""")
 startGame = input("Would you like to start your shift? (Y/N)\n")
 if startGame == 'n' or startGame == 'N':
     print("The boss is visually furious with you. Maybe some other time?")
