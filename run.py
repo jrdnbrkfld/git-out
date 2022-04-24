@@ -57,6 +57,30 @@ Path 2: Hide underneath the desk.
 Path 3: Make your way into the main storage halls.
 
 Make your choice. (1/2/3)\n""")
+    if pathOneA == '1':
+        path1A()
+    else:
+        print()
+        print("Error, you have not chosen a correct option")
+        print("Please try again.")
+        path1()
+
+
+def path1A():
+    print()
+    print("""You sprint to the exit.
+While fumbling around trying to open the door,
+you hear a guttural moan from down the hallway.
+“Why won't this damn door open?!”, you scream.
+You begin to hear footsteps from around the corner.
+Growing louder with each stride.
+Then you remember, the boss locked the door…
+With seconds until whatever is approaching you appears, you must choose!
+
+Path 1: Smash through the glass.
+Path 2: Run back into the office and hide.
+
+Make your choice. (1/2)\n""")
 
 
 # welcome title
