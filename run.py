@@ -1,5 +1,6 @@
 ## intro function
 def intro():
+    print()
     print("""Ten minutes was all the time you needed for the training.
 It was a simple job on paper.
 Patrol the building.
@@ -13,8 +14,14 @@ He exits the door, locking it and making his way to his car.""")
         path1()
     elif firstPath == 'n' or firstPath == 'N':
         path2()
+    else:
+        print()
+        print("Error, you have not chosen a correct option")
+        print("Please try again.")
+        intro()
 
 def path1():
+    print()
     print("""You peel the note open.
 "Why is there blood on it?", you ask yourself.
 The writing is barely legible, but you persevere.
@@ -24,23 +31,36 @@ The note reads…
 She is hungry.”
 """)
 
-## title screen
-print("             ################")
-print("            ##              ##")
-print("           ###              ###")
-print("          ####    Title     ####")
-print("           ###              ###")
-print("            ##              ##")
-print("             ################")
-print()
-print()
-print("""You sprint off the bus.
+def title():
+    print()
+    print("""You sprint off the bus.
 Just your luck that it was running late on the night of your first shift.
 The time is 21:56, not as early as you would have liked to have arrived.
 You approach the staff entrance to the side of the building.
 Your new boss is standing there, looking quite worried.\n""")
-startGame = input("Would you like to start your shift? (Y/N)\n")
-if startGame == 'n' or startGame == 'N':
-    print("The boss is visually furious with you. Maybe some other time?")
-elif startGame == 'y' or startGame == 'Y':
-    intro()
+    startGame = input("Would you like to start your shift? (Y/N)\n")
+    if startGame == 'n' or startGame == 'N':
+        print("The boss is visually furious with you. Maybe some other time?")
+    elif startGame == 'y' or startGame == 'Y':
+        intro()
+    else:
+        print()
+        print("Error, you have not chosen a correct option")
+        print("Please try again.")
+        main()
+
+## title screen
+print("                ################")
+print("               ##              ##")
+print("              ###              ###")
+print("             ####    Title     ####")
+print("              ###              ###")
+print("               ##              ##")
+print("                ################")
+print()
+print()
+
+def main():
+    title()
+
+main()
