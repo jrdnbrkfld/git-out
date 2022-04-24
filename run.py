@@ -1,4 +1,4 @@
-## intro function
+# intro function
 def intro():
     print()
     print("""Ten minutes was all the time you needed for the training.
@@ -20,6 +20,7 @@ He exits the door, locking it and making his way to his car.""")
         print("Please try again.")
         intro()
 
+
 def path1():
     print()
     print("""You peel the note open.
@@ -27,9 +28,10 @@ def path1():
 The writing is barely legible, but you persevere.
 Your face goes pale, your hairs stick up on your arms.
 The note reads…
-“I'm so sorry, I had no other choice. 
+“I'm so sorry, I had no other choice.
 She is hungry.”
 """)
+
 
 def title():
     print()
@@ -49,7 +51,8 @@ Your new boss is standing there, looking quite worried.\n""")
         print("Please try again.")
         main()
 
-## title screen
+
+# title screen
 print("                ################")
 print("               ##              ##")
 print("              ###              ###")
@@ -60,7 +63,9 @@ print("                ################")
 print()
 print()
 
+
 def main():
     title()
+
 
 main()
