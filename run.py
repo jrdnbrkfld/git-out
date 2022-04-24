@@ -1,3 +1,23 @@
+# beginning function to start the game
+def title():
+    print()
+    print("""You sprint off the bus.
+Just your luck that it was running late on the night of your first shift.
+The time is 21:56, not as early as you would have liked to have arrived.
+You approach the staff entrance to the side of the building.
+Your new boss is standing there, looking quite worried.\n""")
+    startGame = input("Would you like to start your shift? (Y/N)\n")
+    if startGame == 'n' or startGame == 'N':
+        print("The boss is visually furious with you. Maybe some other time?")
+    elif startGame == 'y' or startGame == 'Y':
+        intro()
+    else:
+        print()
+        print("Error, you have not chosen a correct option")
+        print("Please try again.")
+        main()
+
+
 # intro function
 def intro():
     print()
@@ -29,30 +49,17 @@ The writing is barely legible, but you persevere.
 Your face goes pale, your hairs stick up on your arms.
 The note reads…
 “I'm so sorry, I had no other choice.
-She is hungry.”
-""")
-
-
-def title():
+She is hungry.”""")
     print()
-    print("""You sprint off the bus.
-Just your luck that it was running late on the night of your first shift.
-The time is 21:56, not as early as you would have liked to have arrived.
-You approach the staff entrance to the side of the building.
-Your new boss is standing there, looking quite worried.\n""")
-    startGame = input("Would you like to start your shift? (Y/N)\n")
-    if startGame == 'n' or startGame == 'N':
-        print("The boss is visually furious with you. Maybe some other time?")
-    elif startGame == 'y' or startGame == 'Y':
-        intro()
-    else:
-        print()
-        print("Error, you have not chosen a correct option")
-        print("Please try again.")
-        main()
+    pathOneA = input("""What would you like to do?
+Path 1: Run to the door and try to get out.
+Path 2: Hide underneath the desk.
+Path 3: Make your way into the main storage halls.
+
+Make your choice. (1/2/3)\n""")
 
 
-# title screen
+# welcome title
 print("                ################")
 print("               ##              ##")
 print("              ###              ###")
