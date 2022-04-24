@@ -41,6 +41,7 @@ He exits the door, locking it and making his way to his car.""")
         intro()
 
 
+# the path in which you read the note
 def path1():
     print()
     print("""You peel the note open.
@@ -66,6 +67,7 @@ Make your choice. (1/2/3)\n""")
         path1()
 
 
+# the path in which you try to exit through the door
 def path1A():
     print()
     print("""You sprint to the exit.
