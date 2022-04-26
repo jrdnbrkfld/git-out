@@ -53,6 +53,7 @@ The note reads…
 She is hungry.”""")
     print()
     pathOneA = input("""What would you like to do?
+
 Path 1: Run to the door and try to get out.
 Path 2: Hide underneath the desk.
 Path 3: Make your way into the main storage halls.
@@ -76,25 +77,54 @@ you hear a guttural moan from down the hallway.
 “Why won't this damn door open?!”, you scream.
 You begin to hear footsteps from around the corner.
 Growing louder with each stride.
-Then you remember, the boss locked the door…
-With seconds until whatever is approaching you appears, you must choose!
+Then you remember, the boss locked the door…""")
+    print()
+    pathOneAOne = input("""With seconds until whatever is approaching you appears, you must choose!
 
 Path 1: Smash through the glass.
 Path 2: Run back into the office and hide.
 
 Make your choice. (1/2)\n""")
+    if pathOneAOne == '1':
+        print("""You grab the fire extinguisher nearby and smash through the glass.
+While crawling through, you turn around to see a pale gaunt girl peeking around the corner at you.
+This must be the “she”, the note was talking about.
+She lets out a bloodcurdling scream and charges.
+You narrowly avoid her razor sharp nails and manage to crawl out.
+Sprinting towards the main road, you flag down the bus.
+Covered in sweat, you board and begin hyperventilating in front of the driver.
+“DRIVE! SHE'S BEHIND ME!”, you scream.
+Then you hear a bang on the door behind you. It's her.
+In a panic the driver puts his foot down, throwing you to the floor.
+You make your way to the back of the bus and notice her silhouette in the middle of the road.
+""")
+        win()
+    else: 
+        print()
+        print("Error, you have not chosen a correct option")
+        print("Please try again.")
+        path1A()
 
+
+def win():
+    print("""
+__  __               _       ___       __
+\ \/ /___  __  __   | |     / (_)___  / /
+ \  / __ \/ / / /   | | /| / / / __ \/ / 
+ / / /_/ / /_/ /    | |/ |/ / / / / /_/  
+/_/\____/\__,_/     |__/|__/_/_/ /_(_)   
+                                         
+""")
 
 # welcome title
-print("                ################")
-print("               ##              ##")
-print("              ###              ###")
-print("             ####    Title     ####")
-print("              ###              ###")
-print("               ##              ##")
-print("                ################")
-print()
-print()
+print("""
+   _______ __     ____        __ 
+  / ____(_) /_   / __ \__  __/ /_
+ / / __/ / __/  / / / / / / / __/
+/ /_/ / / /_   / /_/ / /_/ / /_  
+\____/_/\__/   \____/\__,_/\__/  
+                                 
+""")
 
 
 def main():
