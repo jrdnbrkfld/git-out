@@ -65,6 +65,8 @@ Path 3: Make your way into the main storage halls.""")
     pathOneA = input(Fore.CYAN + Style.BRIGHT + "Make your choice. (1/2/3)\n")
     if pathOneA == '1':
         path1A()
+    elif pathOneA == '2':
+        path1B()
     else:
         print()
         print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option.")
@@ -87,8 +89,8 @@ With seconds until whatever is approaching you appears, you must choose!
 Path 1: Smash through the glass.
 Path 2: Run back into the office and hide.""")
     print()
-    pathOneAOne = input(Fore.CYAN + Style.BRIGHT + "Make your choice. (1/2)\n")
-    if pathOneAOne == '1':
+    path1A1 = input(Fore.CYAN + Style.BRIGHT + "Make your choice. (1/2)\n")
+    if path1A1 == '1':
         print()
         print("""You grab the fire extinguisher nearby and smash through the glass.
 While crawling through, you turn around to see a pale gaunt girl peeking around the corner at you.
@@ -100,7 +102,7 @@ Covered in sweat, you board and begin hyperventilating in front of the driver.
 In a panic the driver puts his foot down, throwing you to the floor.
 She stops chasing you and retreats back to the building.""")
         win()
-    elif pathOneAOne == '2':
+    elif path1A1 == '2':
         print()
         print("""You dart through the door back into the office.
 Quickly diving under the desk, you knock over the desk chair.
@@ -116,6 +118,34 @@ Your body was never found.""")
         print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option.")
         print(Fore.RED + Style.BRIGHT + "Please try again.")
         path1A()
+
+
+# the path where you run back into the office and hide
+def path1B():
+    print()
+    print("""You dart underneath the desk out of sheer panic.
+Could this be a cruel prank the boss is playing on you?
+Then you hear a guttural moan from down the hallway.
+You begin to hear footsteps coming from the hall. 
+Growing louder with each stride, until you sense the presence of someone in the room with you.
+Frantically scanning the area, you look for anything to use as protection.
+You notice a letter opener next to you. What a coincidence!
+Quickly, you have to do something!
+
+Path 1: Stay hidden, like the coward you are.
+Path 2: Attack them with the letter opener.""")
+    print()
+    path1A1 = input(Fore.CYAN + Style.BRIGHT + "Make your choice. (1/2)\n")
+    if path1A1 == '1':
+        print("hide")
+    elif path1A1 == '2':
+        print("attack")
+    else: 
+        print()
+        print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option.")
+        print(Fore.RED + Style.BRIGHT + "Please try again.")
+        path1B() 
+
 
 # win screen
 def win():
