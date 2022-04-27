@@ -110,7 +110,7 @@ She stops chasing you and retreats back to the building.""")
 
 # win screen
 def win():
-    print(Fore.GREEN + Style.BRIGHT + """
+    print(Fore.CYAN + Style.BRIGHT + """
 __  __               _       ___       __
 \ \/ /___  __  __   | |     / (_)___  / /
  \  / __ \/ / / /   | | /| / / / __ \/ / 
