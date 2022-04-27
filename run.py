@@ -86,18 +86,16 @@ Path 2: Run back into the office and hide.
 
 Make your choice. (1/2)\n""")
     if pathOneAOne == '1':
+        print()
         print("""You grab the fire extinguisher nearby and smash through the glass.
 While crawling through, you turn around to see a pale gaunt girl peeking around the corner at you.
-This must be the “she”, the note was talking about.
 She lets out a bloodcurdling scream and charges.
 You narrowly avoid her razor sharp nails and manage to crawl out.
 Sprinting towards the main road, you flag down the bus.
 Covered in sweat, you board and begin hyperventilating in front of the driver.
-“DRIVE! SHE'S BEHIND ME!”, you scream.
-Then you hear a bang on the door behind you. It's her.
+“DRIVE! SHE’S BEHIND ME!”, you scream.
 In a panic the driver puts his foot down, throwing you to the floor.
-You make your way to the back of the bus and notice her silhouette in the middle of the road.
-""")
+She stops chasing you and retreats back to the building.""")
         win()
     else: 
         print()
@@ -105,15 +103,14 @@ You make your way to the back of the bus and notice her silhouette in the middle
         print("Please try again.")
         path1A()
 
-
+# win screen
 def win():
     print("""
 __  __               _       ___       __
 \ \/ /___  __  __   | |     / (_)___  / /
  \  / __ \/ / / /   | | /| / / / __ \/ / 
  / / /_/ / /_/ /    | |/ |/ / / / / /_/  
-/_/\____/\__,_/     |__/|__/_/_/ /_(_)   
-                                         
+/_/\____/\__,_/     |__/|__/_/_/ /_(_) 
 """)
 
 # welcome title
@@ -122,9 +119,7 @@ print("""
   / ____(_) /_   / __ \__  __/ /_
  / / __/ / __/  / / / / / / / __/
 / /_/ / / /_   / /_/ / /_/ / /_  
-\____/_/\__/   \____/\__,_/\__/  
-                                 
-""")
+\____/_/\__/   \____/\__,_/\__/""")
 
 
 def main():
