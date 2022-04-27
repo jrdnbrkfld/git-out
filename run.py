@@ -1,3 +1,8 @@
+import colorama
+from colorama import Fore, Style
+colorama.init(autoreset=True)
+
+
 # beginning function to start the game
 def title():
     print()
@@ -13,8 +18,8 @@ Your new boss is standing there, looking quite worried.\n""")
         intro()
     else:
         print()
-        print("Error, you have not chosen a correct option")
-        print("Please try again.")
+        print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option")
+        print(Fore.RED + Style.BRIGHT + "Please try again.")
         main()
 
 
@@ -36,8 +41,8 @@ He exits the door, locking it and making his way to his car.""")
         path2()
     else:
         print()
-        print("Error, you have not chosen a correct option")
-        print("Please try again.")
+        print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option")
+        print(Fore.RED + Style.BRIGHT + "Please try again.")
         intro()
 
 
@@ -63,8 +68,8 @@ Make your choice. (1/2/3)\n""")
         path1A()
     else:
         print()
-        print("Error, you have not chosen a correct option")
-        print("Please try again.")
+        print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option")
+        print(Fore.RED + Style.BRIGHT + "Please try again.")
         path1()
 
 
@@ -99,13 +104,13 @@ She stops chasing you and retreats back to the building.""")
         win()
     else: 
         print()
-        print("Error, you have not chosen a correct option")
-        print("Please try again.")
+        print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option")
+        print(Fore.RED + Style.BRIGHT + "Please try again.")
         path1A()
 
 # win screen
 def win():
-    print("""
+    print(Fore.GREEN + Style.BRIGHT + """
 __  __               _       ___       __
 \ \/ /___  __  __   | |     / (_)___  / /
  \  / __ \/ / / /   | | /| / / / __ \/ / 
@@ -114,7 +119,7 @@ __  __               _       ___       __
 """)
 
 # welcome title
-print("""
+print(Fore.CYAN + Style.BRIGHT + """
    _______ __     ____        __ 
   / ____(_) /_   / __ \__  __/ /_
  / / __/ / __/  / / / / / / / __/
