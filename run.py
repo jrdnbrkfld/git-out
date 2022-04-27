@@ -100,6 +100,17 @@ Covered in sweat, you board and begin hyperventilating in front of the driver.
 In a panic the driver puts his foot down, throwing you to the floor.
 She stops chasing you and retreats back to the building.""")
         win()
+    elif pathOneAOne == '2':
+        print()
+        print("""You dart through the door back into the office.
+Quickly diving under the desk, you knock over the desk chair.
+You hear the girl panting in the doorway.
+She begins pacing around the room, searching for you.
+Suddenly the girl sends the desk flying, revealing you curled up on the floor.
+She attacks you, severing your jugular vein.
+Bleeding out, the girl stood over you licking her lips.
+Your body was never found.""")
+        lose()
     else: 
         print()
         print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option.")
