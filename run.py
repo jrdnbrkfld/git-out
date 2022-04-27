@@ -13,12 +13,12 @@ You approach the staff entrance to the side of the building.
 Your new boss is standing there, looking quite worried.\n""")
     startGame = input(Fore.CYAN + Style.BRIGHT + "Would you like to start your shift? (Y/N)\n")
     if startGame == 'n' or startGame == 'N':
-        print("The boss is visually furious with you. Maybe some other time?")
+        print("The boss is visually furious with you. Maybe some other time...")
     elif startGame == 'y' or startGame == 'Y':
         intro()
     else:
         print()
-        print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option")
+        print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option.")
         print(Fore.RED + Style.BRIGHT + "Please try again.")
         main()
 
@@ -41,7 +41,7 @@ He exits the door, locking it and making his way to his car.""")
         path2()
     else:
         print()
-        print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option")
+        print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option.")
         print(Fore.RED + Style.BRIGHT + "Please try again.")
         intro()
 
@@ -54,7 +54,7 @@ def path1():
 The writing is barely legible, but you persevere.
 Your face goes pale, your hairs stick up on your arms.
 The note reads…
-“I'm so sorry, I had no other choice.y
+“I'm so sorry, I had no other choice.
 She is hungry.”
 What would you like to do?
 
@@ -67,7 +67,7 @@ Path 3: Make your way into the main storage halls.""")
         path1A()
     else:
         print()
-        print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option")
+        print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option.")
         print(Fore.RED + Style.BRIGHT + "Please try again.")
         path1()
 
@@ -102,7 +102,7 @@ She stops chasing you and retreats back to the building.""")
         win()
     else: 
         print()
-        print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option")
+        print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option.")
         print(Fore.RED + Style.BRIGHT + "Please try again.")
         path1A()
 
