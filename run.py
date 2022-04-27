@@ -93,7 +93,7 @@ She lets out a bloodcurdling scream and charges.
 You narrowly avoid her razor sharp nails and manage to crawl out.
 Sprinting towards the main road, you flag down the bus.
 Covered in sweat, you board and begin hyperventilating in front of the driver.
-“DRIVE! SHE’S BEHIND ME!”, you scream.
+“DRIVE! SHE'S BEHIND ME!”, you scream.
 In a panic the driver puts his foot down, throwing you to the floor.
 She stops chasing you and retreats back to the building.""")
         win()
