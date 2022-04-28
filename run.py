@@ -13,7 +13,7 @@ You approach the staff entrance to the side of the building.
 Your new boss is standing there, looking quite worried.\n""")
     startGame = input(Fore.CYAN + Style.BRIGHT + "Would you like to start your shift? (Y/N)\n")
     if startGame == 'n' or startGame == 'N':
-        print("The boss is visually furious with you. Maybe some other time...")
+        print(Style.RESET_ALL + "The boss is visually furious with you. Maybe some other time...")
     elif startGame == 'y' or startGame == 'Y':
         intro()
     else:
@@ -110,7 +110,7 @@ You hear the girl panting in the doorway.
 She begins pacing around the room, searching for you.
 Suddenly the girl sends the desk flying, revealing you curled up on the floor.
 She attacks you, severing your jugular vein.
-Bleeding out, the girl stood over you licking her lips.
+Bleeding out, the girl stands over you licking her lips.
 Your body was never found.""")
         lose()
     else: 
@@ -137,7 +137,14 @@ Path 2: Attack them with the letter opener.""")
     print()
     path1A1 = input(Fore.CYAN + Style.BRIGHT + "Make your choice. (1/2)\n")
     if path1A1 == '1':
-        print("hide")
+        print()
+        print("""You stay under the desk, sobbing with snot dripping down your face.
+The noise you are making is akin to a toddler losing their favourite toy.
+Suddenly the girl sends the desk flying, revealing you curled up on the floor.
+She attacks you, severing your jugular vein.
+Bleeding out, the girl stands over you licking her lips.
+Your body was never found.""")
+        lose()
     elif path1A1 == '2':
         print("attack")
     else: 
