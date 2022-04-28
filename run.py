@@ -191,6 +191,16 @@ After they had finished their inspection of the building, they found evidence su
 He is eventually caught days later and arrested.
 The nightmare is over!""")
         win()
+    elif path1A1 == '2':
+        print()
+        print("""You charge at her, colliding with the freak and both of you are knocked to the floor.
+She quickly picks herself up.
+With her razor sharp nails, she starts wildly attacking you.
+Her strength is overwhelming for such a small thing.
+One last violent swipe hits your neck, severing your jugular vein.
+Bleeding out, the girl stands over you licking her lips.
+Your body was never found.""")
+        lose()
 
 
 
