@@ -177,8 +177,7 @@ She charges at you!
 Quickly, you have to do something!
 
 Path 1: Run into the lock up to your left and trap her in.
-Path 2: Charge her, you aren't scared!
-""")
+Path 2: Charge her, you aren't scared!""")
     print()
     path1C1 = input(Fore.CYAN + Style.BRIGHT + "Make your choice. (1/2)\n")
     if path1C1 == '1':
