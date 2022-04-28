@@ -135,8 +135,8 @@ Quickly, you have to do something!
 Path 1: Stay hidden, like the coward you are.
 Path 2: Attack them with the letter opener.""")
     print()
-    path1A1 = input(Fore.CYAN + Style.BRIGHT + "Make your choice. (1/2)\n")
-    if path1A1 == '1':
+    path1B1 = input(Fore.CYAN + Style.BRIGHT + "Make your choice. (1/2)\n")
+    if path1B1 == '1':
         print()
         print("""You stay under the desk, sobbing with snot dripping down your face.
 The noise you are making is akin to a toddler losing their favourite toy.
@@ -145,8 +145,17 @@ She attacks you, severing your jugular vein.
 Bleeding out, the girl stands over you licking her lips.
 Your body was never found.""")
         lose()
-    elif path1A1 == '2':
-        print("attack")
+    elif path1B1 == '2':
+        print()
+        print("""You grab the letter opener and flip the desk as you stand up.
+In a blind rage you lunge at the girl, plunging your knife into her belly.
+She lets out a blood curdling scream which echoes throughout the building.
+You call the emergency services with the work phone.
+She is pronounced dead at the scene.
+After the police had finished their inspection of the building, they found evidence suggesting the girl was the boss's daughter.
+He is eventually caught days later and arrested.
+The nightmare is over!""")
+        win()
     else: 
         print()
         print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option.")
