@@ -6,8 +6,8 @@ colorama.init(autoreset=True)
 # beginning function to start the game
 def title():
     print()
-    print("""You sprint off the bus.
-Just your luck that it was running late on the night of your first shift.
+    print("""Your name is Desmond.
+Just your luck that the bus was running late on the night of your first shift.
 The time is 21:56, not as early as you would have liked to have arrived.
 You approach the staff entrance to the side of the building.
 Your new boss is standing there, looking quite worried.\n""")
@@ -31,7 +31,7 @@ It was a simple job on paper.
 Patrol the building.
 Keep an eye on the locks & fire escapes.
 On his way out, the boss places a handwritten note in your hand.
-'Please make sure you read this when I`ve left', he says.
+'Please Desmond, make sure you read this when I`ve left', he says.
 He exits the door, locking it and making his way to his car.""")
     print()
     firstPath = input(Fore.CYAN + Style.BRIGHT + "Do you want to read the note? (Y/N)\n")
