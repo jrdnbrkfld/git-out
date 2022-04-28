@@ -67,6 +67,8 @@ Path 3: Make your way into the main storage halls.""")
         path1A()
     elif pathOneA == '2':
         path1B()
+    elif pathOneA == '3':
+        path1C()
     else:
         print()
         print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option.")
