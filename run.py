@@ -191,7 +191,7 @@ After they had finished their inspection of the building, they found evidence su
 He is eventually caught days later and arrested.
 The nightmare is over!""")
         win()
-    elif path1A1 == '2':
+    elif path1C1 == '2':
         print()
         print("""You charge at her, colliding with the freak and both of you are knocked to the floor.
 She quickly picks herself up.
@@ -201,7 +201,11 @@ One last violent swipe hits your neck, severing your jugular vein.
 Bleeding out, the girl stands over you licking her lips.
 Your body was never found.""")
         lose()
-
+    else: 
+        print()
+        print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option.")
+        print(Fore.RED + Style.BRIGHT + "Please try again.")
+        path1C()
 
 
 # win screen
