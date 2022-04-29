@@ -109,40 +109,19 @@ def path1B():
 
 def path1C():
     print()
-    print("""You make your way into the main halls, confused about the nature of the note.
-Could this be a cruel prank the boss is playing on you?
-Then you hear a guttural moan from down the hallway.
-You notice a pale gaunt girl peeking staring at you from the end of the hall.
-You begin to approach her, she must be a customer that accidentally got locked in. 
-Her behaviour is erratic, moaning constantly like she is in agony.
-She charges at you! 
-Quickly, you have to do something!
-
-Path 1: Run into the lock up to your left and trap her in.
-Path 2: Charge her, you aren't scared!""")
+    f = open("assets/story/path_one_c.txt", 'r')
+    print(f.read())
     print()
     path1C1 = input(Fore.CYAN + Style.BRIGHT + "Make your choice. (1/2)\n")
     if path1C1 == '1':
         print()
-        print("""You dart into the locker on your left, it's full of old car parts.
-She slides around the corner and comes at you!
-You hit her over the head with a wrench you found.
-While she is dazed, you trap her in.
-You call the emergency services with your mobile phone.
-When they arrive, it takes 3 police officers to subdue her and put her in a secure van going to the police station.
-After they had finished their inspection of the building, they found evidence suggesting the girl was the boss's daughter.
-He is eventually caught days later and arrested.
-The nightmare is over!""")
+        f = open("assets/story/path_one_c_win.txt", 'r')
+        print(f.read())
         win()
     elif path1C1 == '2':
         print()
-        print("""You charge at her, colliding with the freak and both of you are knocked to the floor.
-She quickly picks herself up.
-With her razor sharp nails, she starts wildly attacking you.
-Her strength is overwhelming for such a small thing.
-One last violent swipe hits your neck, severing your jugular vein.
-Bleeding out, the girl stands over you licking her lips.
-Your body was never found.""")
+        f = open("assets/story/path_one_c_lose.txt", 'r')
+        print(f.read())
         lose()
     else: 
         print()
