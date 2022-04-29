@@ -45,12 +45,12 @@ def path1():
     f = open("assets/story/path_one.txt", 'r')
     print(f.read())
     print()
-    pathOneA = input(Fore.CYAN + Style.BRIGHT + "Make your choice. (1/2/3)\n")
-    if pathOneA == '1':
+    path_one_a = input(Fore.CYAN + Style.BRIGHT + "Make your choice. (1/2/3)\n")
+    if path_one_a == '1':
         path1A()
-    elif pathOneA == '2':
+    elif path_one_a == '2':
         path1B()
-    elif pathOneA == '3':
+    elif path_one_a == '3':
         path1C()
     else:
         print()
@@ -76,7 +76,7 @@ def path1A():
         f = open("assets/story/path_one_a_lose.txt", 'r')
         print(f.read())
         lose()
-    else: 
+    else:
         print()
         print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option.")
         print(Fore.RED + Style.BRIGHT + "Please try again.")
@@ -100,7 +100,7 @@ def path1B():
         f = open("assets/story/path_one_b_win.txt", 'r')
         print(f.read())
         win()
-    else: 
+    else:
         print()
         print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option.")
         print(Fore.RED + Style.BRIGHT + "Please try again.")
@@ -124,7 +124,7 @@ def path1C():
         f = open("assets/story/path_one_c_lose.txt", 'r')
         print(f.read())
         lose()
-    else: 
+    else:
         print()
         print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option.")
         print(Fore.RED + Style.BRIGHT + "Please try again.")
@@ -163,7 +163,7 @@ def path2A():
         win()
     elif path2A1 == '2':
         lose()
-    else: 
+    else:
         print()
         print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option.")
         print(Fore.RED + Style.BRIGHT + "Please try again.")
