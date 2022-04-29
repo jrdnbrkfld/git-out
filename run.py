@@ -140,11 +140,34 @@ def path2():
     path_two_a = input(Fore.CYAN + Style.BRIGHT + "Make your choice. (1/2/3)\n")
     if path_two_a == '1':
         path2A()
+    elif path_two_a == '2':
+        print("path2B")
+    elif path_two_a == '3':
+        print("path2C")
     else:
         print()
         print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option.")
         print(Fore.RED + Style.BRIGHT + "Please try again.")
         path2()
+
+def path2A():
+    print()
+    f = open("assets/story/path_two_a.txt", 'r')
+    print(f.read())
+    print()
+    path2A1 = input(Fore.CYAN + Style.BRIGHT + "Make your choice. (1/2)\n")
+    if path2A1 == '1':
+        print()
+        f = open("assets/story/path_two_a_win.txt", 'r')
+        print(f.read())
+        win()
+    elif path2A1 == '2':
+        lose()
+    else: 
+        print()
+        print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option.")
+        print(Fore.RED + Style.BRIGHT + "Please try again.")
+        path2A()
 
 
 # win screen
