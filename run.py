@@ -107,6 +107,7 @@ def path1B():
         path1B()
 
 
+# the path where you explore the main halls
 def path1C():
     print()
     f = open("assets/story/path_one_c.txt", 'r')
