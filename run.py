@@ -6,11 +6,9 @@ colorama.init(autoreset=True)
 # beginning function to start the game
 def title():
     print()
-    print("""Your name is Desmond.
-Just your luck that the bus was running late on the night of your first shift.
-The time is 21:56, not as early as you would have liked to have arrived.
-You approach the staff entrance to the side of the building.
-Your new boss is standing there, looking quite worried.\n""")
+    f = open("assets/story/title.txt", 'r')
+    print(f.read())
+    print()
     startGame = input(Fore.CYAN + Style.BRIGHT + "Would you like to start your shift? (Y/N)\n")
     if startGame == 'n' or startGame == 'N':
         print(Style.RESET_ALL + "The boss is visually furious with you. Maybe some other time...")
