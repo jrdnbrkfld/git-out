@@ -62,41 +62,19 @@ def path1():
 # the path in which you try to exit through the door
 def path1A():
     print()
-    print("""You sprint to the exit.
-While fumbling around trying to open the door,
-you hear a guttural moan from down the hallway.
-“Why won't this damn door open?!”, you scream.
-You begin to hear footsteps from around the corner.
-Growing louder with each stride.
-Then you remember, the boss locked the door…
-With seconds until whatever is approaching you appears, you must choose!
-
-Path 1: Smash through the glass.
-Path 2: Run back into the office and hide.""")
+    f = open("assets/story/path_one_a.txt", 'r')
+    print(f.read())
     print()
     path1A1 = input(Fore.CYAN + Style.BRIGHT + "Make your choice. (1/2)\n")
     if path1A1 == '1':
         print()
-        print("""You grab the fire extinguisher nearby and smash through the glass.
-While crawling through, you turn around to see a pale gaunt girl peeking around the corner at you.
-She lets out a bloodcurdling scream and charges.
-You narrowly avoid her razor sharp nails and manage to crawl out.
-Sprinting towards the main road, you flag down the bus.
-Covered in sweat, you board and begin hyperventilating in front of the driver.
-“DRIVE! SHE'S BEHIND ME!”, you scream.
-In a panic the driver puts his foot down, throwing you to the floor.
-She stops chasing you and retreats back to the building.""")
+        f = open("assets/story/path_one_win.txt", 'r')
+        print(f.read())
         win()
     elif path1A1 == '2':
         print()
-        print("""You dart through the door back into the office.
-Quickly diving under the desk, you knock over the desk chair.
-You hear the girl panting in the doorway.
-She begins pacing around the room, searching for you.
-Suddenly the girl sends the desk flying, revealing you curled up on the floor.
-She attacks you, severing your jugular vein.
-Bleeding out, the girl stands over you licking her lips.
-Your body was never found.""")
+        f = open("assets/story/path_one_lose.txt", 'r')
+        print(f.read())
         lose()
     else: 
         print()
