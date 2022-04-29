@@ -131,6 +131,22 @@ def path1C():
         path1C()
 
 
+# the path where you don't read the note
+def path2():
+    print()
+    f = open("assets/story/path_two.txt", 'r')
+    print(f.read())
+    print()
+    path_two_a = input(Fore.CYAN + Style.BRIGHT + "Make your choice. (1/2/3)\n")
+    if path_two_a == '1':
+        path2A()
+    else:
+        print()
+        print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option.")
+        print(Fore.RED + Style.BRIGHT + "Please try again.")
+        path2()
+
+
 # win screen
 def win():
     print(Fore.CYAN + Style.BRIGHT + """
