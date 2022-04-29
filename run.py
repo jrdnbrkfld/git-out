@@ -42,18 +42,8 @@ def intro():
 # the path in which you read the note
 def path1():
     print()
-    print("""You peel the note open.
-"Why is there blood on it?", you ask yourself.
-The writing is barely legible, but you persevere.
-Your face goes pale, your hairs stick up on your arms.
-The note reads…
-“I'm so sorry, I had no other choice.
-She is hungry.”
-What would you like to do?
-
-Path 1: Run to the door and try to get out.
-Path 2: Hide underneath the desk.
-Path 3: Make your way into the main storage halls.""")
+    f = open("assets/story/path_one.txt", 'r')
+    print(f.read())
     print()
     pathOneA = input(Fore.CYAN + Style.BRIGHT + "Make your choice. (1/2/3)\n")
     if pathOneA == '1':
