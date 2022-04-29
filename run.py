@@ -24,13 +24,8 @@ def title():
 # intro function
 def intro():
     print()
-    print("""Ten minutes was all the time you needed for the training.
-It was a simple job on paper.
-Patrol the building.
-Keep an eye on the locks & fire escapes.
-On his way out, the boss places a handwritten note in your hand.
-'Please Desmond, make sure you read this when I`ve left', he says.
-He exits the door, locking it and making his way to his car.""")
+    f = open("assets/story/intro.txt", 'r')
+    print(f.read())
     print()
     firstPath = input(Fore.CYAN + Style.BRIGHT + "Do you want to read the note? (Y/N)\n")
     if firstPath == 'y' or firstPath == 'Y':
