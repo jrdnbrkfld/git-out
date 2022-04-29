@@ -68,12 +68,12 @@ def path1A():
     path1A1 = input(Fore.CYAN + Style.BRIGHT + "Make your choice. (1/2)\n")
     if path1A1 == '1':
         print()
-        f = open("assets/story/path_one_win.txt", 'r')
+        f = open("assets/story/path_one_a_win.txt", 'r')
         print(f.read())
         win()
     elif path1A1 == '2':
         print()
-        f = open("assets/story/path_one_lose.txt", 'r')
+        f = open("assets/story/path_one_a_lose.txt", 'r')
         print(f.read())
         lose()
     else: 
@@ -86,38 +86,19 @@ def path1A():
 # the path where you run back into the office and hide
 def path1B():
     print()
-    print("""You dart underneath the desk out of sheer panic.
-Could this be a cruel prank the boss is playing on you?
-Then you hear a guttural moan from down the hallway.
-You begin to hear footsteps coming from the hall. 
-Growing louder with each stride, until you sense the presence of someone in the room with you.
-Frantically scanning the area, you look for anything to use as protection.
-You notice a letter opener next to you. What a coincidence!
-Quickly, you have to do something!
-
-Path 1: Stay hidden, like the coward you are.
-Path 2: Attack them with the letter opener.""")
+    f = open("assets/story/path_one_b.txt", 'r')
+    print(f.read())
     print()
     path1B1 = input(Fore.CYAN + Style.BRIGHT + "Make your choice. (1/2)\n")
     if path1B1 == '1':
         print()
-        print("""You stay under the desk, sobbing with snot dripping down your face.
-The noise you are making is akin to a toddler losing their favourite toy.
-Suddenly the girl sends the desk flying, revealing you curled up on the floor.
-She attacks you, severing your jugular vein.
-Bleeding out, the girl stands over you licking her lips.
-Your body was never found.""")
+        f = open("assets/story/path_one_b_lose.txt", 'r')
+        print(f.read())
         lose()
     elif path1B1 == '2':
         print()
-        print("""You grab the letter opener and flip the desk as you stand up.
-In a blind rage you lunge at the girl, plunging your knife into her belly.
-She lets out a blood curdling scream which echoes throughout the building.
-You call the emergency services with the work phone.
-She is pronounced dead at the scene.
-After the police had finished their inspection of the building, they found evidence suggesting the girl was the boss's daughter.
-He is eventually caught days later and arrested.
-The nightmare is over!""")
+        f = open("assets/story/path_one_b_win.txt", 'r')
+        print(f.read())
         win()
     else: 
         print()
