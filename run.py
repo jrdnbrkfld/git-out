@@ -173,7 +173,7 @@ def path2A():
 
 # win screen
 def win():
-    print(Fore.CYAN + Style.BRIGHT + """
+    print(Fore.GREEN + Style.BRIGHT + """
 __  __               _       ___       __
 \ \/ /___  __  __   | |     / (_)___  / /
  \  / __ \/ / / /   | | /| / / / __ \/ / 
