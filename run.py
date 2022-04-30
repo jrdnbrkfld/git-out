@@ -144,7 +144,7 @@ def path2():
     elif path_two_a == '2':
         path2B()
     elif path_two_a == '3':
-        print("path2C")
+        path2C()
     else:
         print()
         print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option.")
@@ -271,6 +271,9 @@ def main():
  / / __/ / __/  / / / / / / / __/
 / /_/ / / /_   / /_/ / /_/ / /_  
 \____/_/\__/   \____/\__,_/\__/""")
+    print()
+    print(Fore.GREEN + Style.BRIGHT + "Created by Jordan Brookfield.")
+    print(Fore.GREEN + Style.BRIGHT + "With inspiration from Desmond Hogan.")
     title()
 
 
