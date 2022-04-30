@@ -180,6 +180,16 @@ __  __               _       ___       __
  / / /_/ / /_/ /    | |/ |/ / / / / /_/  
 /_/\____/\__,_/     |__/|__/_/_/ /_(_) 
 """)
+    retry = input(Fore.CYAN + Style.BRIGHT + "Would you like to try again? Y/N\n")
+    if retry == 'y' or retry == 'Y':
+        main()
+    elif retry == 'n' or retry == 'N':
+        exit()
+    else:
+        print()
+        print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option.")
+        print(Fore.RED + Style.BRIGHT + "Please try again.")
+        win()
 
 # lose screen
 def lose():
