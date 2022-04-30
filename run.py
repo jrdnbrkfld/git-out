@@ -142,7 +142,7 @@ def path2():
     if path_two_a == '1':
         path2A()
     elif path_two_a == '2':
-        print("path2B")
+        path2B()
     elif path_two_a == '3':
         print("path2C")
     else:
@@ -175,6 +175,27 @@ def path2A():
         print(Fore.RED + Style.BRIGHT + "Please try again.")
         path2A()
 
+
+# the path where you boil the kettle
+def path2B():
+    print()
+    f = open("assets/story/path_two_b.txt", 'r')
+    print(f.read())
+    print()
+    path2B1 = input(Fore.CYAN + Style.BRIGHT + "Make your choice. (1/2)\n")
+    if path2B1 == '1':
+        print()
+        f = open("assets/story/path_two_a_win.txt", 'r')
+        print(f.read())
+        win()
+    elif path2B1 == '2':
+        print()
+        lose()
+    else:
+        print()
+        print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option.")
+        print(Fore.RED + Style.BRIGHT + "Please try again.")
+        path2B()
 
 # win screen
 def win():

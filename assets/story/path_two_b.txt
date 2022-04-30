@@ -1,0 +1,9 @@
+You boil the kettle and prepare your brew.
+No sugar, you’re already sweet enough.
+You finish making the drink and sit down at your desk.
+Those strange noises from before start again.
+You’re beginning to get freaked out.
+
+What would you like to do?
+Path 1: Investigate the noises coming from the hallway.
+Path 2: Stay and drink your brew, must be nothing anyway.
