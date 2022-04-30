@@ -190,6 +190,8 @@ def path2B():
         win()
     elif path2B1 == '2':
         print()
+        f = open("assets/story/path_two_b_lose.txt", 'r')
+        print(f.read())
         lose()
     else:
         print()
