@@ -185,7 +185,7 @@ def path2B():
     path2B1 = input(Fore.CYAN + Style.BRIGHT + "Make your choice. (1/2)\n")
     if path2B1 == '1':
         print()
-        f = open("assets/story/path_two_a_win.txt", 'r')
+        f = open("assets/story/path_two_b_win.txt", 'r')
         print(f.read())
         win()
     elif path2B1 == '2':
