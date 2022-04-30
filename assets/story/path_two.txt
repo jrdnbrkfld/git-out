@@ -6,5 +6,5 @@ You decide it is probably best to make a move, since you are supposed to be work
 
 What would you like to do?
 Path 1: Go and do your first patrol of the evening.
-Path 2: Have a brew, the boss just boiled the kettle.
+Path 2: Boil the kettle, the boss has left some tea bags for you.
 Path 3: Stay sitting down and browse Twitch on your phone.
