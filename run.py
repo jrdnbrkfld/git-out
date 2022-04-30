@@ -199,6 +199,28 @@ def path2B():
         print(Fore.RED + Style.BRIGHT + "Please try again.")
         path2B()
 
+
+def path2C():
+    print()
+    f = open("    ", 'r')
+    print(f.read())
+    print()
+    path2C1 = input(Fore.CYAN + Style.BRIGHT + "Make your choice. (1/2)\n")
+    if path2C1 == '1':
+        print()
+        f = open("  ", 'r')
+        print(f.read())
+        win()
+    elif path2C1 == '2':
+        print()
+        f = open("  ", 'r')
+        print(f.read())
+        lose()
+    else:
+        print()
+        print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option.")
+        print(Fore.RED + Style.BRIGHT + "Please try again.")
+        path2C()
 # win screen
 def win():
     print(Fore.GREEN + Style.BRIGHT + """
