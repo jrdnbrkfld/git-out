@@ -12,7 +12,9 @@ def title():
     print()
     startGame = input(Fore.CYAN + Style.BRIGHT + "Would you like to start your shift? (Y/N)\n")
     if startGame == 'n' or startGame == 'N':
+        print()
         print(Style.RESET_ALL + "The boss is visually furious with you. Maybe some other time...")
+        main()
     elif startGame == 'y' or startGame == 'Y':
         intro()
     else:
