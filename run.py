@@ -1,6 +1,7 @@
 import colorama
 from colorama import Fore, Style
 colorama.init(autoreset=True)
+from sys import exit
 
 
 # beginning function to start the game
@@ -189,17 +190,26 @@ __  __               __                    __
  / / /_/ / /_/ /  / /___/ /_/ (__  )  __/_/  
 /_/\____/\__,_/  /_____/\____/____/\___(_)   
 """)
+    retry = input(Fore.CYAN + Style.BRIGHT + "Would you like to try again? Y/N\n")
+    if retry == 'y' or retry == 'Y':
+        main()
+    elif retry == 'n' or retry == 'N':
+        exit()
+    else:
+        print()
+        print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option.")
+        print(Fore.RED + Style.BRIGHT + "Please try again.")
+        lose()
+
 
 # welcome title
-print(Fore.CYAN + Style.BRIGHT + """
+def main():
+    print(Fore.CYAN + Style.BRIGHT + """
    _______ __     ____        __ 
   / ____(_) /_   / __ \__  __/ /_
  / / __/ / __/  / / / / / / / __/
 / /_/ / / /_   / /_/ / /_/ / /_  
 \____/_/\__/   \____/\__,_/\__/""")
-
-
-def main():
     title()
 
 
