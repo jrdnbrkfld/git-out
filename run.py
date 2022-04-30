@@ -1,7 +1,7 @@
+from sys import exit
 import colorama
 from colorama import Fore, Style
 colorama.init(autoreset=True)
-from sys import exit
 
 
 # beginning function to start the game
@@ -151,6 +151,8 @@ def path2():
         print(Fore.RED + Style.BRIGHT + "Please try again.")
         path2()
 
+
+# the path where you do your first patrol
 def path2A():
     print()
     f = open("assets/story/path_two_a.txt", 'r')
@@ -193,6 +195,7 @@ __  __               _       ___       __
         print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option.")
         print(Fore.RED + Style.BRIGHT + "Please try again.")
         win()
+
 
 # lose screen
 def lose():
