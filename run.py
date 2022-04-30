@@ -215,7 +215,7 @@ def path2C():
         win()
     elif path2C1 == '2':
         print()
-        f = open("  ", 'r')
+        f = open("assets/story/path_two_c_lose.txt", 'r')
         print(f.read())
         lose()
     else:
@@ -223,6 +223,8 @@ def path2C():
         print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option.")
         print(Fore.RED + Style.BRIGHT + "Please try again.")
         path2C()
+
+
 # win screen
 def win():
     print(Fore.GREEN + Style.BRIGHT + """
