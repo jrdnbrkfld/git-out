@@ -22,7 +22,7 @@ This website was created to complete the third Milestone Project for Code Insitu
 
 Users of this website are able to play a short story with multiple branching paths leading to either a win or a loss.
 
-![Website Mock Up](assets/readme/purpose.png)
+![Website Mock Up](assets/readme/welcome.png)
 
 I highly recommend inspecting this 
 [Google Doc](https://docs.google.com/document/d/1ghwcjxg73EdyXoCgmjsem6h2mjyTQ0Chwmcv5w3aVCk/edit?usp=sharing) to see the thought process behind creating this project.
@@ -53,8 +53,13 @@ Due to this project being a simple terminal based application there was not a lo
 ## Features
 
 ### Existing Features
+*  #### Title Screen
+    * This section is the first thing the user is greeted with when opening the application. 
+    * It clearly states the main story of the game.
+    * The purpose of this is to fulfill the user story:
+    > As a First Time user, I want to easily understand the main purpose of the site.
 
-*  feature
+    ![Title Screen](assets/readme/title-screen.png)
 
 ### Features Left to Implement
 
