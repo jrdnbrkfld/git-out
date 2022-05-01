@@ -39,7 +39,8 @@ Please note: To open any links in this document in a new browser tab, please pre
 * As a First Time user, I want to easily understand the main purpose of the site.
 * As a First Time user, I want a simple but effective way of making my choices while playing the game.
 * As a First Time user, I want to know when my inputs are not incorrect and have another attempt.
-* As a First Time user, I want to clearly see how my choices are affecting the game for good or bad.
+#### Frequent Visitor Goals
+* As a Frequent user, I want to clearly see how my choices are impacting the outcome of the game.
 #### Returning Visitor Goals
 * As a Returning user, I want to be able to return to see if I can beat the computer again or for the first time.
 
@@ -79,6 +80,17 @@ Due to this project being a simple terminal based application there was not a lo
     > As a First Time user, I want to know when my inputs are not incorrect and have another chance.
     
     ![Error Message](assets/readme/error.png)
+* #### Win/Loss Screen
+    * This section makes it evident to the user the outcome of the game.
+    * In this instance the user has won and "You Win!" is printed to the terminal in ASCII art format.
+
+    ![You Win](assets/readme/you-win.png)
+    * This section makes it evident to the user the outcome of the game.
+    * In this instance the user has lost and "You Lose!" is printed to the terminal in ASCII art format.
+
+    ![You Lose](assets/readme/you-lose.png)
+    * The purpose of this is to fulfill the user story:
+    > As a Frequent user, I want to clearly see how my choices are impacting the outcome of the game.
 
 ### Features Left to Implement
 
