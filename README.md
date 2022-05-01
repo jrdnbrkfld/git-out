@@ -140,4 +140,4 @@ I highly recommend inspecting this
 ***
 
 ## Credits
-I'd like to thank my friend [Des Hogan](https://twitter.com/DesGames2) for the inspiration behind the story. I'd also like to thank [Rob Fairclough](https://github.com/RobFairclough) for help regarding importing the .txt files to save space in the python code.
+I'd like to thank my friend [Des Hogan](https://twitter.com/DesGames2) for the inspiration behind the story. I'd also like to thank [Rob Fairclough](https://github.com/RobFairclough) for help regarding importing the .txt files to save space in the python code. The [Code Institute Python Template](https://github.com/Code-Institute-Org/python-essentials-template) was used as a base for this project and made into my own.
