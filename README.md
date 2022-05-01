@@ -64,7 +64,9 @@ Please note: To open any links in this document in a new browser tab, please pre
 * [GitPod](https://gitpod.io/)
     * GitPod is the Integrated Development Environment used to develop the website in a browser.
 * [Stack Overflow](https://stackoverflow.com/)
-    * Stack Overflow was the primary source for help regarding HTML, CSS and JavaScript issues.
+    * Stack Overflow was one of the websites used for resolving issues with code.
+* [W3 Schools](https://www.w3schools.com/)
+    * W3 Schools was one of the websites used for resolving issues with code.
 
 ***
 
