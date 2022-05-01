@@ -127,7 +127,7 @@ Due to this project being a simple terminal based application there was not a lo
 
 
 ## Issues and Resolutions
-* I have had an issue whenever opening a new workspace where I would have to import Colorama everytime. This is a small issue and I just resolve this by using "pip install colorama" in the terminal
+* I have had an issue whenever opening a new workspace where I would have to import Colorama everytime. This is a small issue and I just resolve this by using "pip install colorama" in the terminal.
 
 ## Deployment
 
