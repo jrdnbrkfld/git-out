@@ -120,10 +120,8 @@ Due to this project being a simple terminal based application there was not a lo
 ## Testing
 
 ## Validator Testing
-
-* Python
-    * No errors were returned when passing through the PEP8 Online Validator. 
-    ![Validator](assets/readme/validator.png)
+* No errors were returned when passing through the PEP8 Online Validator. 
+![Validator](assets/readme/validator.png)
 
 
 ## Issues and Resolutions
@@ -143,3 +141,4 @@ Due to this project being a simple terminal based application there was not a lo
 ***
 
 ## Credits
+I'd like to thank my friend [Des Hogan](https://twitter.com/DesGames2) for the inspiration behind the story. I'd also like to thank [Rob Fairclough](https://github.com/RobFairclough) for help regarding importing the .txt files to save space in the python code.
