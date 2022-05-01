@@ -30,3 +30,52 @@ You can find the information regarding the development steps of this project in 
 You can find the link to the live website right [here](https://git-out.herokuapp.com/).
 Please note: To open any links in this document in a new browser tab, please press CTRL + Click.
 
+***
+
+## User Experience Design
+
+### User Stories
+#### First Time Visitor Goals
+
+#### Frequent Visitor Goals
+
+#### Returning Visitor Goals
+
+## Design
+
+#### Color Scheme
+
+*** 
+
+## Features
+
+### Existing Features
+
+*  feature
+
+### Features Left to Implement
+
+***
+
+## Technologies
+
+* [GitHub](https://github.com/)
+    * GitHub is the hosting site I used to store the code for the website.
+* [GitPod](https://gitpod.io/)
+    * GitPod is the Integrated Development Environment used to develop the website in a browser.
+* [Stack Overflow](https://stackoverflow.com/)
+    * Stack Overflow was the primary source for help regarding HTML, CSS and JavaScript issues.
+
+***
+
+## Testing
+
+## Validator Testing
+
+## Issues and Resolutions
+
+## Deployment
+
+***
+
+## Credits
