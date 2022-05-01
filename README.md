@@ -101,6 +101,8 @@ I highly recommend inspecting this
 
 * [GitHub](https://github.com/)
     * GitHub is the hosting site I used to store the code for the website.
+* [Google Docs](https://docs.google.com/)
+    * Google Docs was used to write the story.
 * [Heroku](https://dashboard.heroku.com/apps)
     * Heroku is the site used to deploy the project.
 * [GitPod](https://gitpod.io/)
