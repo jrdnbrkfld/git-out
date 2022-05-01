@@ -111,6 +111,8 @@ I highly recommend inspecting this
     * Stack Overflow was one of the websites used for resolving issues with code.
 * [W3 Schools](https://www.w3schools.com/)
     * W3 Schools was one of the websites used for resolving issues with code.
+* [PEP8 Validator](http://pep8online.com/)
+    * This was used to check the Python code.
 * [Patorkj](http://www.patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20)
     * This was used to convert text to ASCII art for the title, win and lose screen. 
 
@@ -125,6 +127,9 @@ I highly recommend inspecting this
 
 ## Issues and Resolutions
 * I have had an issue whenever opening a new workspace where I would have to import Colorama everytime. This is a small issue and I just resolve this by using "pip install colorama" in the terminal.
+* When I ran the Python code through the [PEP8 Validator](http://pep8online.com/) it repeatedly came back with a "line too long" error. The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line. This was easily resolved by spacing out the code over a few lines instead of just one.
+
+    ![Line Errors](assets/readme/line-error.png)
 
 ## Deployment
 
