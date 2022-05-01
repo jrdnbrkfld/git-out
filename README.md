@@ -133,14 +133,12 @@ I highly recommend inspecting this
 
 ## Deployment
 
- This project was deployed using Code Institute's mock terminal for Heroku.
-
-* The steps for deployment are as follows:
-    * Fork or clone this repository
-    * Create a new Heroku app
-    * Set the buildpacks to Python and NodeJS in that order
-    * Link the Heroku app to the repository
-    * Click on Deploy
+ This project was deployed using Code Institute's mock terminal for Heroku. The steps for deployment are as follows:
+* Fork or clone this repository
+* Create a new Heroku app
+* Set the buildpacks to Python and NodeJS in that order
+* Link the Heroku app to the repository
+* Click on Deploy
 
 ***
 
