@@ -106,6 +106,8 @@ Due to this project being a simple terminal based application there was not a lo
 
 * [GitHub](https://github.com/)
     * GitHub is the hosting site I used to store the code for the website.
+* [Heroku](https://dashboard.heroku.com/apps)
+    * Heroku is the site used to deploy the project.
 * [GitPod](https://gitpod.io/)
     * GitPod is the Integrated Development Environment used to develop the website in a browser.
 * [Stack Overflow](https://stackoverflow.com/)
