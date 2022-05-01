@@ -60,6 +60,15 @@ Due to this project being a simple terminal based application there was not a lo
     > As a First Time user, I want to easily understand the main purpose of the site.
 
     ![Title Screen](assets/readme/title-screen.png)
+* #### Choice Area
+    * This section is where the user will be making their decisions.
+    * The application will only accept either Y, N, 1, 2 or 3 as an input.
+    * The purpose of this is to fulfill the user story:
+    > As a First Time user, I want a simple but effective way of making my choices while playing the game.
+
+    ![Choice Area](assets/readme/choice-1.png)
+* #### Error Message
+    * 
 
 ### Features Left to Implement
 
