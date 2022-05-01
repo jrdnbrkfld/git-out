@@ -91,6 +91,12 @@ Due to this project being a simple terminal based application there was not a lo
     ![You Lose](assets/readme/you-lose.png)
     * The purpose of this is to fulfill the user story:
     > As a Frequent user, I want to clearly see how my choices are impacting the outcome of the game.
+* #### Retry Area
+    * This section gives the user the option to have another attempt if they are not happy with the outcome. Or to just experience the other paths.
+    * The purpose of this is to fulfill the user story:
+    > As a Returning user, I want to be able to play again to try for a different outcome.
+
+    ![Retry](assets/readme/retry.png)
 
 ### Features Left to Implement
 
