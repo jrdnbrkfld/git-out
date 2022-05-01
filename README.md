@@ -42,7 +42,7 @@ Please note: To open any links in this document in a new browser tab, please pre
 #### Frequent Visitor Goals
 * As a Frequent user, I want to clearly see how my choices are impacting the outcome of the game.
 #### Returning Visitor Goals
-* As a Returning user, I want to be able to return to see if I can beat the computer again or for the first time.
+* As a Returning user, I want to be able to play again to try for a different outcome.
 
 ## Design
 #### Color Scheme
