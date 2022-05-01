@@ -36,14 +36,15 @@ Please note: To open any links in this document in a new browser tab, please pre
 
 ### User Stories
 #### First Time Visitor Goals
-
-#### Frequent Visitor Goals
-
+* As a First Time user, I want to easily understand the main purpose of the site.
+* As a First Time user, I want a simple but effective way of making my choices while playing the game.
+* As a First Time user, I want to clearly see how my choices are affecting the game for good or bad.
 #### Returning Visitor Goals
+* As a Returning user, I want to be able to return to see if I can beat the computer again or for the first time.
 
 ## Design
-
 #### Color Scheme
+
 
 *** 
 
