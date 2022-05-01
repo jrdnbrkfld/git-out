@@ -10,16 +10,22 @@ def title():
     f = open("assets/story/title.txt", 'r')
     print(f.read())
     print()
-    startGame = input(Fore.CYAN + Style.BRIGHT + "Would you like to start your shift? (Y/N)\n")
+    startGame = input(
+        Fore.CYAN + Style.BRIGHT +
+        "Would you like to start your shift? (Y/N)\n")
     if startGame == 'n' or startGame == 'N':
         print()
-        print(Style.RESET_ALL + "The boss is visually furious with you. Maybe some other time...")
+        print(
+            Style.RESET_ALL +
+            "The boss is visually furious with you. Maybe some other time...")
         main()
     elif startGame == 'y' or startGame == 'Y':
         intro()
     else:
         print()
-        print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option.")
+        print(
+            Fore.RED + Style.BRIGHT +
+            "Error, you have not chosen a correct option.")
         print(Fore.RED + Style.BRIGHT + "Please try again.")
         main()
 
@@ -30,14 +36,18 @@ def intro():
     f = open("assets/story/intro.txt", 'r')
     print(f.read())
     print()
-    firstPath = input(Fore.CYAN + Style.BRIGHT + "Do you want to read the note? (Y/N)\n")
+    firstPath = input(
+        Fore.CYAN + Style.BRIGHT +
+        "Do you want to read the note? (Y/N)\n")
     if firstPath == 'y' or firstPath == 'Y':
         path1()
     elif firstPath == 'n' or firstPath == 'N':
         path2()
     else:
         print()
-        print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option.")
+        print(
+            Fore.RED + Style.BRIGHT +
+            "Error, you have not chosen a correct option.")
         print(Fore.RED + Style.BRIGHT + "Please try again.")
         intro()
 
@@ -48,7 +58,8 @@ def path1():
     f = open("assets/story/path_one.txt", 'r')
     print(f.read())
     print()
-    path_one_a = input(Fore.CYAN + Style.BRIGHT + "Make your choice. (1/2/3)\n")
+    path_one_a = input(
+        Fore.CYAN + Style.BRIGHT + "Make your choice. (1/2/3)\n")
     if path_one_a == '1':
         path1A()
     elif path_one_a == '2':
@@ -57,7 +68,9 @@ def path1():
         path1C()
     else:
         print()
-        print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option.")
+        print(
+            Fore.RED + Style.BRIGHT +
+            "Error, you have not chosen a correct option.")
         print(Fore.RED + Style.BRIGHT + "Please try again.")
         path1()
 
@@ -81,7 +94,9 @@ def path1A():
         lose()
     else:
         print()
-        print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option.")
+        print(
+            Fore.RED + Style.BRIGHT +
+            "Error, you have not chosen a correct option.")
         print(Fore.RED + Style.BRIGHT + "Please try again.")
         path1A()
 
@@ -105,7 +120,9 @@ def path1B():
         win()
     else:
         print()
-        print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option.")
+        print(
+            Fore.RED + Style.BRIGHT +
+            "Error, you have not chosen a correct option.")
         print(Fore.RED + Style.BRIGHT + "Please try again.")
         path1B()
 
@@ -129,7 +146,9 @@ def path1C():
         lose()
     else:
         print()
-        print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option.")
+        print(
+            Fore.RED + Style.BRIGHT +
+            "Error, you have not chosen a correct option.")
         print(Fore.RED + Style.BRIGHT + "Please try again.")
         path1C()
 
@@ -140,7 +159,8 @@ def path2():
     f = open("assets/story/path_two.txt", 'r')
     print(f.read())
     print()
-    path_two_a = input(Fore.CYAN + Style.BRIGHT + "Make your choice. (1/2/3)\n")
+    path_two_a = input(
+        Fore.CYAN + Style.BRIGHT + "Make your choice. (1/2/3)\n")
     if path_two_a == '1':
         path2A()
     elif path_two_a == '2':
@@ -149,7 +169,9 @@ def path2():
         path2C()
     else:
         print()
-        print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option.")
+        print(
+            Fore.RED + Style.BRIGHT +
+            "Error, you have not chosen a correct option.")
         print(Fore.RED + Style.BRIGHT + "Please try again.")
         path2()
 
@@ -173,7 +195,9 @@ def path2A():
         lose()
     else:
         print()
-        print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option.")
+        print(
+            Fore.RED + Style.BRIGHT +
+            "Error, you have not chosen a correct option.")
         print(Fore.RED + Style.BRIGHT + "Please try again.")
         path2A()
 
@@ -197,7 +221,9 @@ def path2B():
         lose()
     else:
         print()
-        print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option.")
+        print(
+            Fore.RED + Style.BRIGHT +
+            "Error, you have not chosen a correct option.")
         print(Fore.RED + Style.BRIGHT + "Please try again.")
         path2B()
 
@@ -220,7 +246,9 @@ def path2C():
         lose()
     else:
         print()
-        print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option.")
+        print(
+            Fore.RED + Style.BRIGHT +
+            "Error, you have not chosen a correct option.")
         print(Fore.RED + Style.BRIGHT + "Please try again.")
         path2C()
 
@@ -230,18 +258,22 @@ def win():
     print(Fore.GREEN + Style.BRIGHT + """
 __  __               _       ___       __
 \ \/ /___  __  __   | |     / (_)___  / /
- \  / __ \/ / / /   | | /| / / / __ \/ / 
- / / /_/ / /_/ /    | |/ |/ / / / / /_/  
-/_/\____/\__,_/     |__/|__/_/_/ /_(_) 
+ \  / __ \/ / / /   | | /| / / / __ \/ /
+ / / /_/ / /_/ /    | |/ |/ / / / / /_/
+/_/\____/\__,_/     |__/|__/_/_/ /_(_)
 """)
-    retry = input(Fore.CYAN + Style.BRIGHT + "Would you like to try again? Y/N\n")
+    retry = input(
+        Fore.CYAN + Style.BRIGHT +
+        "Would you like to try again? Y/N\n")
     if retry == 'y' or retry == 'Y':
         main()
     elif retry == 'n' or retry == 'N':
         exit()
     else:
         print()
-        print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option.")
+        print(
+            Fore.RED + Style.BRIGHT +
+            "Error, you have not chosen a correct option.")
         print(Fore.RED + Style.BRIGHT + "Please try again.")
         win()
 
@@ -251,18 +283,22 @@ def lose():
     print(Fore.RED + Style.BRIGHT + """
 __  __               __                    __
 \ \/ /___  __  __   / /   ____  ________  / /
- \  / __ \/ / / /  / /   / __ \/ ___/ _ \/ / 
- / / /_/ / /_/ /  / /___/ /_/ (__  )  __/_/  
-/_/\____/\__,_/  /_____/\____/____/\___(_)   
+ \  / __ \/ / / /  / /   / __ \/ ___/ _ \/ /
+ / / /_/ / /_/ /  / /___/ /_/ (__  )  __/_/
+/_/\____/\__,_/  /_____/\____/____/\___(_)
 """)
-    retry = input(Fore.CYAN + Style.BRIGHT + "Would you like to try again? Y/N\n")
+    retry = input(
+        Fore.CYAN + Style.BRIGHT +
+        "Would you like to try again? Y/N\n")
     if retry == 'y' or retry == 'Y':
         main()
     elif retry == 'n' or retry == 'N':
         exit()
     else:
         print()
-        print(Fore.RED + Style.BRIGHT + "Error, you have not chosen a correct option.")
+        print(
+            Fore.RED + Style.BRIGHT +
+            "Error, you have not chosen a correct option.")
         print(Fore.RED + Style.BRIGHT + "Please try again.")
         lose()
 
@@ -270,10 +306,10 @@ __  __               __                    __
 # welcome title
 def main():
     print(Fore.CYAN + Style.BRIGHT + """
-   _______ __     ____        __ 
+   _______ __     ____        __
   / ____(_) /_   / __ \__  __/ /_
  / / __/ / __/  / / / / / / / __/
-/ /_/ / / /_   / /_/ / /_/ / /_  
+/ /_/ / / /_   / /_/ / /_/ / /_
 \____/_/\__/   \____/\__,_/\__/""")
     print()
     print(Fore.GREEN + Style.BRIGHT + "Created by Jordan Brookfield.")
