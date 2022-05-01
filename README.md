@@ -24,7 +24,9 @@ Users of this website are able to play a short story with multiple branching pat
 
 ![Website Mock Up](assets/readme/welcome.png)
 
+You can find the information regarding the development steps of this project in this 
+[Google Doc](https://docs.google.com/document/d/1ghwcjxg73EdyXoCgmjsem6h2mjyTQ0Chwmcv5w3aVCk/edit?usp=sharing).
+
 You can find the link to the live website right [here](https://git-out.herokuapp.com/).
 Please note: To open any links in this document in a new browser tab, please press CTRL + Click.
 
-[Google Doc](https://docs.google.com/document/d/1ghwcjxg73EdyXoCgmjsem6h2mjyTQ0Chwmcv5w3aVCk/edit?usp=sharing)
