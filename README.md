@@ -22,7 +22,7 @@ This website was created to complete the third Milestone Project for Code Insitu
 
 Users of this website are able to play a short story with multiple branching paths leading to either a win or a loss.
 
-![Website Mock Up](assets/images/readme/website-mock-up.png)
+![Website Mock Up](assets/readme/welcome.png)
 
 You can find the link to the live website right [here](https://git-out.herokuapp.com/).
 Please note: To open any links in this document in a new browser tab, please press CTRL + Click.
