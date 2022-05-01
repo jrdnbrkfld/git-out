@@ -314,7 +314,26 @@ def main():
     print()
     print(Fore.GREEN + Style.BRIGHT + "Created by Jordan Brookfield.")
     print(Fore.GREEN + Style.BRIGHT + "With inspiration from Desmond Hogan.")
-    title()
+    print()
+    f = open("assets/story/main.txt", 'r')
+    print(f.read())
+    print()
+    begin = input(
+        Fore.CYAN + Style.BRIGHT +
+        "Would you like to play the game? (Y/N)\n")
+    if begin == 'y' or begin == 'Y':
+        title()
+    elif begin == 'n' or begin == 'N':
+        print()
+        print("That's too bad, maybe some other time.\n")
+        exit()
+    else:
+        print()
+        print(
+            Fore.RED + Style.BRIGHT +
+            "Error, you have not chosen a correct option.")
+        print(Fore.RED + Style.BRIGHT + "Please try again.")
+        main()
 
 
 main()
