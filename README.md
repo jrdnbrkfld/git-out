@@ -1,20 +1,12 @@
 ## Table of Contents
 * [Purpose](#Purpose)
 * [User Experience Design](#User-Experience-Design)
-    * [User Stories](#User-Stories)
-        * [First Time Visitor Goals](#First-Time-Visitor-Goals)
-        * [Returning Visitor Goals](#Returning-Visitor-Goals)
-    * [Design](#Design)
-        * [Color Scheme](#Color-Scheme)
-- [Features](#Features)
-    * [Existing Features](#Existing-Features)
-    * [Features Left To Implement](#Features-Left-To-Implement)
-- [Technologies](#Technologies)
-- [Testing](#Testing)
-    * [Validator Testing](#Validator-Testing)
-    * [Issues And Resolutions](#Issues-And-Resolutions)
-- [Deployment](#Deployment)
-- [Credits](#Credits)
+* [Story Map & Flow Chart](#Story-Map-&-Flow-Chart)
+* [Features](#Features)
+* [Technologies](#Technologies)
+* [Testing](#Testing)
+* [Deployment](#Deployment)
+* [Credits](#Credits)
 
 # Milestone Project 3 - GitOut, a choose your own adventure game.
 ## Purpose
@@ -54,6 +46,8 @@ I highly recommend inspecting this
 [Google Doc](https://docs.google.com/document/d/1ghwcjxg73EdyXoCgmjsem6h2mjyTQ0Chwmcv5w3aVCk/edit?usp=sharing) to see the thought process behind creating this project. Below you will find the flow chart I created to aid in development of this application. I wrote a total of 20 text files, one for each node on the diagram.
 
 ![Flow Chart](assets/readme/flow-diagram.png)
+
+***
 
 ## Features
 
