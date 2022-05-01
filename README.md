@@ -38,6 +38,7 @@ Please note: To open any links in this document in a new browser tab, please pre
 #### First Time Visitor Goals
 * As a First Time user, I want to easily understand the main purpose of the site.
 * As a First Time user, I want a simple but effective way of making my choices while playing the game.
+* As a First Time user, I want to know when my inputs are not incorrect and have another attempt.
 * As a First Time user, I want to clearly see how my choices are affecting the game for good or bad.
 #### Returning Visitor Goals
 * As a Returning user, I want to be able to return to see if I can beat the computer again or for the first time.
@@ -68,7 +69,12 @@ Due to this project being a simple terminal based application there was not a lo
 
     ![Choice Area](assets/readme/choice-1.png)
 * #### Error Message
-    * 
+    * This section informs the user that they have used the incorrect input.
+    * When this happens the function they made the incorrect input on is started again, letting the user have another attempt.
+    * The purpose of this is to fulfill the user story:
+    > As a First Time user, I want to know when my inputs are not incorrect and have another chance.
+    
+    ![Error Message](assets/readme/error.png)
 
 ### Features Left to Implement
 
