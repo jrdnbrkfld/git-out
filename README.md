@@ -74,6 +74,11 @@ Please note: To open any links in this document in a new browser tab, please pre
 
 ## Validator Testing
 
+* Python
+    * No errors were returned when passing through the PEP8 Online Validator. 
+    ![Validator](assets/readme/validator.png)
+
+
 ## Issues and Resolutions
 
 ## Deployment
