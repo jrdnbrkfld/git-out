@@ -64,10 +64,13 @@ Due to this project being a simple terminal based application there was not a lo
 * #### Choice Area
     * This section is where the user will be making their decisions.
     * The application will only accept either Y, N, 1, 2 or 3 as an input.
-    * The purpose of this is to fulfill the user story:
-    > As a First Time user, I want a simple but effective way of making my choices while playing the game.
 
     ![Choice Area](assets/readme/choice-1.png)
+    * Another example of this can be found further into the game, this one in particular will only accept either 1, 2 or 3.
+
+    ![Choice Area 2](assets/readme/choice-2.png)
+    * The purpose of this is to fulfill the user story:
+    > As a First Time user, I want a simple but effective way of making my choices while playing the game.
 * #### Error Message
     * This section informs the user that they have used the incorrect input.
     * When this happens the function they made the incorrect input on is started again, letting the user have another attempt.
