@@ -67,6 +67,8 @@ Please note: To open any links in this document in a new browser tab, please pre
     * Stack Overflow was one of the websites used for resolving issues with code.
 * [W3 Schools](https://www.w3schools.com/)
     * W3 Schools was one of the websites used for resolving issues with code.
+* [Patorkj](http://www.patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20)
+    * This was used to convert text to ASCII art for the title, win and lose screen. 
 
 ***
 
