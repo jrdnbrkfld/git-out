@@ -44,7 +44,9 @@ Please note: To open any links in this document in a new browser tab, please pre
 
 ## Design
 #### Color Scheme
+Due to this project being a simple terminal based application there was not a lot that I could do regarding the styling. I did however come across Colorama which allowed me to add some colors to parts of the text. These being Cyan, Red & Green.
 
+![Colors](assets/readme/colors-used.png)
 
 *** 
 
