@@ -63,10 +63,11 @@ Due to this project being a simple terminal based application there was not a lo
     ![Title Screen](assets/readme/title-screen.png)
 * #### Choice Area
     * This section is where the user will be making their decisions.
-    * The application will only accept either Y, N, 1, 2 or 3 as an input.
+    * The section will only accept either Y or N as an input.
 
     ![Choice Area](assets/readme/choice-1.png)
-    * Another example of this can be found further into the game, this one in particular will only accept either 1, 2 or 3.
+    * Another example of this can be found further into the game.
+    * This section will only accept either 1, 2 or 3 as an input.
 
     ![Choice Area 2](assets/readme/choice-2.png)
     * The purpose of this is to fulfill the user story:
