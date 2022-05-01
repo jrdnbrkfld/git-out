@@ -24,9 +24,6 @@ Users of this website are able to play a short story with multiple branching pat
 
 ![Website Mock Up](assets/readme/welcome.png)
 
-I highly recommend inspecting this 
-[Google Doc](https://docs.google.com/document/d/1ghwcjxg73EdyXoCgmjsem6h2mjyTQ0Chwmcv5w3aVCk/edit?usp=sharing) to see the thought process behind creating this project.
-
 You can find the link to the live website right [here](https://git-out.herokuapp.com/).
 Please note: To open any links in this document in a new browser tab, please press CTRL + Click.
 
@@ -51,6 +48,12 @@ Due to this project being a simple terminal based application there was not a lo
 ![Colors](assets/readme/colors-used.png)
 
 *** 
+
+## Story Map & Flow Chart
+I highly recommend inspecting this 
+[Google Doc](https://docs.google.com/document/d/1ghwcjxg73EdyXoCgmjsem6h2mjyTQ0Chwmcv5w3aVCk/edit?usp=sharing) to see the thought process behind creating this project. Below you will find the flow chart I created to aid in development of this application. I wrote a total of 20 text files, one for each node on the diagram.
+
+![Flow Chart](assets/readme/flow-diagram.png)
 
 ## Features
 
