@@ -201,6 +201,7 @@ def error():
     print(Fore.RED + Style.BRIGHT + f.read())
 
 
+# function which prints the chosen .txt file to the terminal
 def read_file(current_story_file):
     with open(current_story_file) as file:
         file_text = file.read()
