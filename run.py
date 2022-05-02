@@ -249,7 +249,7 @@ def lose():
 def main():
     f = open("assets/ASCII/gitout.txt", 'r')
     print(Fore.CYAN + Style.BRIGHT + f.read())
-    f = open("assets/ASCII/credits.txt", 'r')
+    f = open("assets/story/credits.txt", 'r')
     print(Fore.GREEN + Style.BRIGHT + f.read())
     f = open("assets/story/main.txt", 'r')
     print(f.read())
@@ -270,11 +270,8 @@ def main():
 
 # error function, returns when wrong input is chosen
 def error():
-    print()
-    print(
-        Fore.RED + Style.BRIGHT +
-        "Error, you have not chosen a correct option.")
-    print(Fore.RED + Style.BRIGHT + "Please try again.")
+    f = open("assets/story/error.txt", 'r')
+    print(Fore.RED + Style.BRIGHT + f.read())
 
 
 main()
