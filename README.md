@@ -121,8 +121,17 @@ I highly recommend inspecting this
 ## Testing
 
 ## Validator Testing
-* No errors were returned when passing through the PEP8 Online Validator. 
+* 13 errors that were all <b>Code E501 line too long</b>. I checked each of these and all would break funcionality if the lines are shortened. All efforts were made on my part to reduce the number of these errors.
+
 ![Validator](assets/readme/validator.png)
+
+* Javascript Validator passed with no errors and 1 warning (written by Code Institute).
+
+* HTML Validator passed with no errors or warnings (written by Code Institute).
+
+* CSS Validator passed with no errors or warnings (written by Code Institute except where marked)
+
+
 
 
 ## Issues and Resolutions
