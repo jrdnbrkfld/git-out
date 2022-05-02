@@ -13,13 +13,13 @@ def title():
     startGame = input(
         Fore.CYAN + Style.BRIGHT +
         "Would you like to start your shift? (Y/N)\n")
-    if startGame == 'n' or startGame == 'N':
+    if startGame.lower() == 'n':
         print()
         print(
             Style.RESET_ALL +
             "The boss is visually furious with you. Maybe some other time...")
         main()
-    elif startGame == 'y' or startGame == 'Y':
+    elif startGame.lower() == 'y':
         intro()
     else:
         print()
@@ -39,9 +39,9 @@ def intro():
     firstPath = input(
         Fore.CYAN + Style.BRIGHT +
         "Do you want to read the note? (Y/N)\n")
-    if firstPath == 'y' or firstPath == 'Y':
+    if firstPath.lower() == 'y':
         path1()
-    elif firstPath == 'n' or firstPath == 'N':
+    elif firstPath.lower() == 'n':
         path2()
     else:
         print()
@@ -265,9 +265,9 @@ __  __               _       ___       __
     retry = input(
         Fore.CYAN + Style.BRIGHT +
         "Would you like to try again? Y/N\n")
-    if retry == 'y' or retry == 'Y':
+    if retry.lower() == 'y':
         main()
-    elif retry == 'n' or retry == 'N':
+    elif retry.lower() == 'n':
         exit()
     else:
         print()
@@ -290,9 +290,9 @@ __  __               __                    __
     retry = input(
         Fore.CYAN + Style.BRIGHT +
         "Would you like to try again? Y/N\n")
-    if retry == 'y' or retry == 'Y':
+    if retry.lower() == 'y':
         main()
-    elif retry == 'n' or retry == 'N':
+    elif retry.lower() == 'n':
         exit()
     else:
         print()
@@ -321,9 +321,9 @@ def main():
     begin = input(
         Fore.CYAN + Style.BRIGHT +
         "Would you like to play the game? (Y/N)\n")
-    if begin == 'y' or begin == 'Y':
+    if begin.lower() == 'y':
         title()
-    elif begin == 'n' or begin == 'N':
+    elif begin.lower() == 'n':
         print()
         print("That's too bad, maybe some other time.\n")
         exit()
