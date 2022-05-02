@@ -99,6 +99,8 @@ I highly recommend inspecting this
 
 ## Technologies
 
+* Python
+    * This project uses Python as the main language that was used to complete the website.
 * [GitHub](https://github.com/)
     * GitHub is the hosting site I used to store the code for the website.
 * [Google Docs](https://docs.google.com/)
@@ -136,6 +138,8 @@ I highly recommend inspecting this
 
 ## Issues and Resolutions
 * I have had an issue whenever opening a new workspace where I would have to import Colorama everytime. This is a small issue and I just resolve this by using "pip install colorama" in the terminal.
+
+***
 
 ## Deployment
 
