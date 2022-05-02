@@ -215,13 +215,8 @@ def path2C():
 
 # win screen
 def win():
-    print(Fore.GREEN + Style.BRIGHT + """
-__  __               _       ___       __
-\ \/ /___  __  __   | |     / (_)___  / /
- \  / __ \/ / / /   | | /| / / / __ \/ /
- / / /_/ / /_/ /    | |/ |/ / / / / /_/
-/_/\____/\__,_/     |__/|__/_/_/ /_(_)
-""")
+    f = open("assets/ASCII/win.txt", 'r')
+    print(Fore.GREEN + Style.BRIGHT + f.read())
     retry = input(
         Fore.CYAN + Style.BRIGHT +
         "Would you like to try again? Y/N\n")
@@ -236,13 +231,8 @@ __  __               _       ___       __
 
 # lose screen
 def lose():
-    print(Fore.RED + Style.BRIGHT + """
-__  __               __                    __
-\ \/ /___  __  __   / /   ____  ________  / /
- \  / __ \/ / / /  / /   / __ \/ ___/ _ \/ /
- / / /_/ / /_/ /  / /___/ /_/ (__  )  __/_/
-/_/\____/\__,_/  /_____/\____/____/\___(_)
-""")
+    f = open("assets/ASCII/lose.txt", 'r')
+    print(Fore.RED + Style.BRIGHT + f.read())
     retry = input(
         Fore.CYAN + Style.BRIGHT +
         "Would you like to try again? Y/N\n")
@@ -257,16 +247,10 @@ __  __               __                    __
 
 # welcome title
 def main():
-    print(Fore.CYAN + Style.BRIGHT + """
-   _______ __     ____        __
-  / ____(_) /_   / __ \__  __/ /_
- / / __/ / __/  / / / / / / / __/
-/ /_/ / / /_   / /_/ / /_/ / /_
-\____/_/\__/   \____/\__,_/\__/""")
-    print()
-    print(Fore.GREEN + Style.BRIGHT + "Created by Jordan Brookfield.")
-    print(Fore.GREEN + Style.BRIGHT + "With inspiration from Desmond Hogan.")
-    print()
+    f = open("assets/ASCII/gitout.txt", 'r')
+    print(Fore.CYAN + Style.BRIGHT + f.read())
+    f = open("assets/ASCII/credits.txt", 'r')
+    print(Fore.GREEN + Style.BRIGHT + f.read())
     f = open("assets/story/main.txt", 'r')
     print(f.read())
     print()
