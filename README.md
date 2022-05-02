@@ -133,6 +133,10 @@ I highly recommend inspecting this
 
 * CSS Validator passed with no errors or warnings (written by Code Institute except where marked)
 
+## Manual Testing
+
+![Manual Testing](assets/readme/manual-testing.png)
+
 
 
 
@@ -153,4 +157,5 @@ I highly recommend inspecting this
 ***
 
 ## Credits
-I'd like to thank my friend [Des Hogan](https://twitter.com/DesGames2) for the inspiration behind the story. I'd also like to thank [Rob Fairclough](https://github.com/RobFairclough) for help regarding importing the .txt files to save space in the python code. The [Code Institute Python Template](https://github.com/Code-Institute-Org/python-essentials-template) was used as a base for this project and made into my own.
+I'd like to thank my friend [Des Hogan](https://www.linkedin.com/in/desmond-hogan-015089b5/) for the inspiration behind the story. I'd also like to thank [Rob Fairclough](https://www.linkedin.com/in/robfairclough/) and my mentor [Ronan McClelland](https://www.linkedin.com/in/ronanmcclelland/) for their help and support throughout this project.
+The [Code Institute Python Template](https://github.com/Code-Institute-Org/python-essentials-template) was used as a base for this project and made into my own.
