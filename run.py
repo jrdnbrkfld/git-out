@@ -22,11 +22,7 @@ def title():
     elif startGame.lower() == 'y':
         intro()
     else:
-        print()
-        print(
-            Fore.RED + Style.BRIGHT +
-            "Error, you have not chosen a correct option.")
-        print(Fore.RED + Style.BRIGHT + "Please try again.")
+        error()
         main()
 
 
@@ -44,11 +40,7 @@ def intro():
     elif firstPath.lower() == 'n':
         path2()
     else:
-        print()
-        print(
-            Fore.RED + Style.BRIGHT +
-            "Error, you have not chosen a correct option.")
-        print(Fore.RED + Style.BRIGHT + "Please try again.")
+        error()
         intro()
 
 
@@ -67,11 +59,7 @@ def path1():
     elif path_one_a == '3':
         path1C()
     else:
-        print()
-        print(
-            Fore.RED + Style.BRIGHT +
-            "Error, you have not chosen a correct option.")
-        print(Fore.RED + Style.BRIGHT + "Please try again.")
+        error()
         path1()
 
 
@@ -93,11 +81,7 @@ def path1A():
         print(f.read())
         lose()
     else:
-        print()
-        print(
-            Fore.RED + Style.BRIGHT +
-            "Error, you have not chosen a correct option.")
-        print(Fore.RED + Style.BRIGHT + "Please try again.")
+        error()
         path1A()
 
 
@@ -119,11 +103,7 @@ def path1B():
         print(f.read())
         win()
     else:
-        print()
-        print(
-            Fore.RED + Style.BRIGHT +
-            "Error, you have not chosen a correct option.")
-        print(Fore.RED + Style.BRIGHT + "Please try again.")
+        error()
         path1B()
 
 
@@ -145,11 +125,7 @@ def path1C():
         print(f.read())
         lose()
     else:
-        print()
-        print(
-            Fore.RED + Style.BRIGHT +
-            "Error, you have not chosen a correct option.")
-        print(Fore.RED + Style.BRIGHT + "Please try again.")
+        error()
         path1C()
 
 
@@ -168,11 +144,7 @@ def path2():
     elif path_two_a == '3':
         path2C()
     else:
-        print()
-        print(
-            Fore.RED + Style.BRIGHT +
-            "Error, you have not chosen a correct option.")
-        print(Fore.RED + Style.BRIGHT + "Please try again.")
+        error()
         path2()
 
 
@@ -194,11 +166,7 @@ def path2A():
         print(f.read())
         lose()
     else:
-        print()
-        print(
-            Fore.RED + Style.BRIGHT +
-            "Error, you have not chosen a correct option.")
-        print(Fore.RED + Style.BRIGHT + "Please try again.")
+        error()
         path2A()
 
 
@@ -220,11 +188,7 @@ def path2B():
         print(f.read())
         lose()
     else:
-        print()
-        print(
-            Fore.RED + Style.BRIGHT +
-            "Error, you have not chosen a correct option.")
-        print(Fore.RED + Style.BRIGHT + "Please try again.")
+        error()
         path2B()
 
 
@@ -245,11 +209,7 @@ def path2C():
         print(f.read())
         lose()
     else:
-        print()
-        print(
-            Fore.RED + Style.BRIGHT +
-            "Error, you have not chosen a correct option.")
-        print(Fore.RED + Style.BRIGHT + "Please try again.")
+        error()
         path2C()
 
 
@@ -270,11 +230,7 @@ __  __               _       ___       __
     elif retry.lower() == 'n':
         exit()
     else:
-        print()
-        print(
-            Fore.RED + Style.BRIGHT +
-            "Error, you have not chosen a correct option.")
-        print(Fore.RED + Style.BRIGHT + "Please try again.")
+        error()
         win()
 
 
@@ -295,11 +251,7 @@ __  __               __                    __
     elif retry.lower() == 'n':
         exit()
     else:
-        print()
-        print(
-            Fore.RED + Style.BRIGHT +
-            "Error, you have not chosen a correct option.")
-        print(Fore.RED + Style.BRIGHT + "Please try again.")
+        error()
         lose()
 
 
@@ -328,11 +280,7 @@ def main():
         print("That's too bad, maybe some other time.\n")
         exit()
     else:
-        print()
-        print(
-            Fore.RED + Style.BRIGHT +
-            "Error, you have not chosen a correct option.")
-        print(Fore.RED + Style.BRIGHT + "Please try again.")
+        error()
         main()
 
 
