@@ -284,6 +284,7 @@ def main():
         main()
 
 
+# error function, returns when wrong input is chosen
 def error():
     print()
     print(
