@@ -336,4 +336,12 @@ def main():
         main()
 
 
+def error():
+    print()
+    print(
+        Fore.RED + Style.BRIGHT +
+        "Error, you have not chosen a correct option.")
+    print(Fore.RED + Style.BRIGHT + "Please try again.")
+
+
 main()
