@@ -83,7 +83,7 @@ def path1C():
         read_file("assets/story/path_one_c_win.txt")
         win()
     elif user_choice == '2':
-        read_file("assets/story/path_one_c_lose.txt", 'r')
+        read_file("assets/story/path_one_c_lose.txt")
         lose()
     else:
         error()
