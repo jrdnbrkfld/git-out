@@ -147,12 +147,23 @@ I highly recommend inspecting this
 
 ## Deployment
 
- This project was deployed using Code Institute's mock terminal for Heroku. The steps for deployment are as follows:
+ This project was deployed using Code Institute's mock terminal for Heroku. Usually these steps would work for deploying to Heroku:
 * Fork or clone this repository
 * Create a new Heroku app
 * Set the buildpacks to Python and NodeJS in that order
 * Link the Heroku app to the repository
 * Click on Deploy
+
+Github announced that a number of user login tokens for Heroku had been compromised in a security attack. In response, Heroku have removed this particular login functionality from their site. It is currently unclear when or if they well re-enable it. This means that you will no longer be able to deploy apps from the Heroku dashboard, nor will apps automatically update/redeploy in future. All future deployments will have to be done manually from the terminal. The process is as follows:
+
+<b>IF YOU ARE CREATING A NEW DEPLOYMENT/APP</b>
+Run the command heroku login -i and login when prompted. Then run the command heroku create your_app_name_here to create a new app, replacing your_app_name_here with the name you want to give your app. This will create a new Heroku app and link it to your Gitpod terminal. You can then access the app via the Heroku dashboard and set up your config vars.
+
+<b>IF YOU ALREADY HAVE AN APP CREATED WHICH USES AUTOMATIC DEPLOYS</b>
+Run the command heroku login -i and login when prompted. Then run the following command: heroku git:remote -a your_app_name_here and replace your_app_name_here with the name of your Heroku app. This will link the app to your Gitpod terminal.
+
+<b>HOW TO DEPLOY</b>
+After linking your app to your workspace with one of the above steps, you can then deploy new versions of the app by running the command git push heroku main and your app will be deployed to Heroku.
 
 ***
 
